@@ -8,6 +8,10 @@
   padding: 0 10px;  
 }
 
+img{
+    max-width: 100%;
+}
+
 header{
     background-color: #4ea0ff;
     background-image: url("../img/pattern.png");
@@ -32,4 +36,16 @@ h1 {
 
 .subtitle-container{
     font-size: 2rem;
+}
+
+figure{
+    padding: 30px 0;
+}
+
+#tim-img-1{
+    width: 1006px;
+}
+
+#tim-img-2{
+    width: 860px;
 }
