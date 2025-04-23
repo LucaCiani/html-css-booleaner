@@ -66,11 +66,10 @@ table{
     padding: 0 0 40px 0;
     border-collapse: collapse;
     width: 100%;
-    margin-top: 10px;
+    margin-bottom: 40px;
 }
 
 th, td {
-    border: 1px solid #ccc;
     padding: 0;
     text-align: left;
   }
@@ -94,20 +93,29 @@ th, td {
   }
 
   footer{
-    padding-left: 10px;
-    padding-top: 50px;
+    padding: 50px 10px;
   }
 
-  .footer-img{
-    border: 30px;
-  }
-
-  .white-text{
-    color: white;
-    font-size: 2rem;
-  }
-
-  .monitor{
+.monitor{
     background-image: url(../img/monitor.jpg);
     background-size: contain;
+    height: 300px;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 2rem;
+    padding: 15px 15px ;
+    font-weight: bold;
+    margin-top: 20px;
   }
+
+  .graph{
+    background-image: url(../img/graph.jpg);
+    background-size: contain;
+    height: 300px;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 2rem;
+    padding: 15px 15px ;
+    margin-top: 20px;
+    font-weight: bold;
+  }  
