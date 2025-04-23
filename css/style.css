@@ -49,3 +49,7 @@ figure{
 #tim-img-2{
     width: 860px;
 }
+
+figcaption{
+    font-size: 1.5rem;
+}
