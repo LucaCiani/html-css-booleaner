@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+  padding: 0 10px;  
+}
+
+img{
+    max-width: 100%;
+}
+
+header{
+    background-color: #4ea0ff;
+    background-image: url("../img/pattern.png");
+    padding: 90px 10px 10px;
+}
+
+.logo {
+    width: 300px;
+}
+
+h1 {
+    font-size: 4.5rem;
+}
+
+.grey-text{
+    color: #828282;
+}
+
+.blue-text{
+    color: #23aae5;
+}
+
+.text{
+    font-size: 2rem;
+}
+
+figure{
+    padding: 30px 0;
+}
+
+.tim-img{
+    height: 670px;
+}
+
+figcaption{
+    font-size: 1.5rem;
+}
+
+.highlight{
+    background-color: #ffff00;
+}
+
+ul{
+    padding: 50px 30px;
+}
+
+table{
+    padding: 0 0 40px 0;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+th, td {
+    padding: 0;
+    text-align: left;
+  }
+
+  th {
+    background-color: #20a9e5; 
+    color: white;
+    font-weight: bold;
+  }
+
+  tr:nth-child(even) td {
+    background-color: white; 
+  }
+
+  tr:nth-child(odd) td {
+    background-color: #d9f0f7;
+  }
+
+  td:nth-child(3) {
+    max-width: 400px;
+  }
+
+  footer{
+    padding: 50px 10px;
+  }
+
+.monitor{
+    background-image: url(../img/monitor.jpg);
+    background-size: contain;
+    height: 300px;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 2rem;
+    padding: 15px 15px ;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+
+  .graph{
+    background-image: url(../img/graph.jpg);
+    background-size: contain;
+    height: 300px;
+    background-repeat: no-repeat;
+    color: white;
+    font-size: 2rem;
+    padding: 15px 15px ;
+    margin-top: 20px;
+    font-weight: bold;
+  }  
